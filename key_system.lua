@@ -37,7 +37,7 @@ status.BackgroundTransparency = 1
 button.MouseButton1Click:Connect(function()
     local userKey = textbox.Text
     local success, result = pcall(function()
-        return HttpService:GetAsync("https://raw.githubusercontent.com/YourUsername/keysystem/main/key_hwids.json")
+        return HttpService:GetAsync("https://raw.githubusercontent.com/zepthical/keysystem/main/key_hwids.json")
     end)
 
     if success then
